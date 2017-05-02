@@ -301,6 +301,8 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    color: #ff9a18;
+    text-shadow: 0 0 3px rgba(0,0,0,0.75);
 }
 
 @media(min-width:768px) {
@@ -747,20 +749,25 @@ section#about #sensibilisation {
   margin-top: 75px;
 }
 
+.navbar-brand {
+  position: relative;
+}
+
 #logo {
-  width: 100%;
+  position: absolute;
+  width: 256px;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;
-  margin-top: -30px;
+  top: -15px;
 }
 
 .navbar-shrink #logo {
-  width: 60%;
+  width: 140px;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;
-  margin-top: -20px;
+  top: 0px;
 }
 
 
