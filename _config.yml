@@ -1,21 +1,21 @@
-url: https://datatransition.github.io/easyprivacy-site-static/
+url: https://easyprivacy.tech
 baseurl: ""
 
 # Site settings
 title: Easy Privacy
-email: your-email@domain.com
+email: contact@datatransition.net
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 
 # Team names, titles and social links
 people:
 - name: Laure Isabelle LIGAUDAN
-  pic: 1
+  pic: laure-isabelle-ligaudan
   position: Spécialiste Privacy since 2004
 
 
 - name: Michael FOZEU
-  pic: 2
+  pic: michael-fozeu
   position: Designer de transition
   social:
     - title: twitter
@@ -24,8 +24,8 @@ people:
       url: https://www.linkedin.com/in/michaelfozeu/
 
 - name: Glenn ROLLAND
-  pic: 3
-  position: Lead Developer
+  pic: glenn-rolland
+  position: Bâtisseur de transition
   social:
     - title: twitter
       url: https://twitter.com/glenux
@@ -35,7 +35,7 @@ people:
       url: https://github.com/glenux
 
 - name: Raphaël RAULT
-  pic: 4
+  pic: raphael-rault
   position: Avocat spécialisé Privacy
   social:
   - title: linkedin
@@ -49,8 +49,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Fécamp
+  - line: Fécamp
 
 # Build settings
 markdown: kramdown

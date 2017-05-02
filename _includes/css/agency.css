@@ -209,7 +209,7 @@ fieldset[disabled] .btn-xl.active {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 10px;
-    padding: 7px 2px;
+    padding: 7px 10px;
     margin: 12px 0px 0px 5px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -748,8 +748,21 @@ section#about #sensibilisation {
 }
 
 #logo {
-  width: 60%;
+  width: 100%;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+  margin-top: -30px;
 }
+
+.navbar-shrink #logo {
+  width: 60%;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+  margin-top: -20px;
+}
+
 
 footer {
     padding: 25px 0;
