@@ -1,15 +1,15 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: Audit GDPR
+subtitle:
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+img: audit.jpg
+thumbnail: audit.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Les obligations relatives au GDPR seront mise en œuvre le 25 Mai 2018 . C’est une étape importante pour votre organisation car en cas de non conformité, votre organisation sera exposée à des risques financiers et opérationnels substantiels.
 
 ---
