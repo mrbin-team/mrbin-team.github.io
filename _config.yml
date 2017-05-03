@@ -12,7 +12,11 @@ people:
 - name: Laure Isabelle LIGAUDAN
   pic: laure-isabelle-ligaudan
   position: Spécialiste Privacy since 2004
-
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/laure-isabelle-ligaudan-12834019/
+    - title: twitter
+      url: https://twitter.com/lilconseil
 
 - name: Michael FOZEU
   pic: michael-fozeu
@@ -22,6 +26,9 @@ people:
       url: https://twitter.com/mfozeu
     - title: linkedin
       url: https://www.linkedin.com/in/michaelfozeu/
+    - title: instagram
+      url: https://www.instagram.com/mike_oze/
+
 
 - name: Glenn ROLLAND
   pic: glenn-rolland

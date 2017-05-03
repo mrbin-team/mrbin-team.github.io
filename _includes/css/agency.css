@@ -810,19 +810,19 @@ section#contact:-ms-input-placeholder {
 section#contact .text-danger {
     color: #e74c3c;
 }
-
+*/
 section#contact p {
   color: #888;
 
 }
 
-section#contact .titres {
+.portfolioModal4 .titres {
   font-size: 16px;
   font-weight: 600;
   margin: 0px;
 }
 
-section#contact .descriptions {
+.portfolioModal4 .descriptions {
   margin: 0px 0px 25px 0px;
 }
 
@@ -830,7 +830,7 @@ section#contact #mentions {
   font-size: 18px;
   margin-bottom: 15px;
 }
-*/
+
 section#about #sensibilisation {
   margin-top: 75px;
 }
@@ -990,6 +990,14 @@ ul.social-buttons li a:active {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+.portfolio-modal .modal-body p {
+  font-size: 23px;
+  text-align: left;
+}
+.portfolio-modal .modal-body p .development {
+  color: #{{ site.data.template.color.primary }};
 }
 
 ::-moz-selection {
