@@ -1,7 +1,9 @@
+
+# MANDATORY SITE SETTINGS
+# =======================
+
 url: https://easyprivacy.tech
 baseurl: ""
-
-# Site settings
 title: Easy Privacy
 email: contact@datatransition.net
 description: "Nous développons les outils qui vous facilitent la mise en place d’une gestion responsable des données"
@@ -10,7 +12,18 @@ gems:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+
+# JEKYLL PLUGINS 
+# ==============
+
+# Jekyll SEO plugin
 lang: fr_FR
+twitter:
+    username: easy_privacy
+logo: /img/logos/logo-easy-privacy-v4-color.256p.png
+
+# JEKYLL TEMPLATE
+# ===============
 
 # Team names, titles and social links
 people:
@@ -62,3 +75,4 @@ address:
 markdown: kramdown
 permalink: pretty
 permalink: contact
+
