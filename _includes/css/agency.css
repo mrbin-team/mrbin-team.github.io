@@ -61,6 +61,10 @@ h6 {
     font-weight: 700;
 }
 
+h3.text-muted2.clearfix{
+  text-align: justify;
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -685,6 +689,7 @@ section#contact .form-group {
 section#contact .form-group input,
 section#contact .form-group textarea {
     padding: 20px;
+    color: #{{ site.data.template.color.primary }};
 }
 
 section#contact .form-group input.form-control {
