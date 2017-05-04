@@ -136,6 +136,10 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+
 }
 
 .btn-xl:hover,
@@ -146,6 +150,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #{{ site.data.template.color.primary }};
     color: #333;
     background-color: #{{ site.data.template.color.secondary }};
+
 }
 
 .btn-xl:active,
