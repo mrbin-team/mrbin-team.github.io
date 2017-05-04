@@ -315,7 +315,7 @@ header .intro-text .intro-heading {
     font-weight: 700;
     line-height: 50px;
     color: #ff9a18;
-    text-shadow: 0 0 3px rgba(0,0,0,0.75);
+    text-shadow: 0 0 1px rgba(0,0,0,0.75);
 }
 
 @media(min-width:768px) {
