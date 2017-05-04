@@ -8,6 +8,9 @@ description: "Nous développons les outils qui vous facilitent la mise en place 
 
 gems:
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+lang: fr_FR
 
 # Team names, titles and social links
 people:
