@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: La solution applicative Easy Privacy vous permettra de piloter votre conformité à 360°. Vous pourrez auditer chaque traitement, en gerer la conformité et assurer un reporting selon les pilliers du reglement.</br></br><h3><font color="00A076" face='Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'>En cours de dévellopement</font></h3>
+description: La solution applicative Easy Privacy vous permettra de piloter votre conformité à 360°. Vous pourrez auditer chaque traitement, en gérer la conformité et assurer un reporting selon les piliers du réglement.</br></br><h3><font color="00A076" face='Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'>En cours de dévellopement</font></h3>
 
 ---

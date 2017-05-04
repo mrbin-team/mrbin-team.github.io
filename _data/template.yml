@@ -3,8 +3,9 @@ color:
   primary: 00A076
   secondary: 47ECC1
   secondary-dark: 333
-  muted: ccc
-
+  muted: 777
+  muted2: ccc
+  
 # Font Families
 font:
   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
