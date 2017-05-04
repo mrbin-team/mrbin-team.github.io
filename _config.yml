@@ -11,7 +11,7 @@ description: "Write an awesome description for your new site here. You can edit 
 people:
 - name: Laure Isabelle LIGAUDAN
   pic: laure-isabelle-ligaudan
-  position: Spécialiste Privacy since 2004
+  position: Spécialiste Privacy depuis 2004
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/laure-isabelle-ligaudan-12834019/
@@ -32,7 +32,7 @@ people:
 
 - name: Glenn ROLLAND
   pic: glenn-rolland
-  position: Expert systèmes et réseaux informatiques
+  position: Expert systèmes et réseaux
   social:
     - title: twitter
       url: https://twitter.com/glenux
