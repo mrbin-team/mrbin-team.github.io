@@ -47,7 +47,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.primary }};
 }
 
 h1,
@@ -59,6 +59,10 @@ h6 {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
+}
+
+h3.text-muted2.clearfix{
+  text-align: justify;
 }
 
 .img-centered {
@@ -132,6 +136,10 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+
 }
 
 .btn-xl:hover,
@@ -142,6 +150,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #{{ site.data.template.color.primary }};
     color: #333;
     background-color: #{{ site.data.template.color.secondary }};
+
 }
 
 .btn-xl:active,
@@ -355,9 +364,6 @@ section h3.section-subheading {
 @media(min-width:768px) {
     section {
         padding: 150px 0;
-    }
-    section#contact{
-      padding: 1%;
     }
 }
 
@@ -688,6 +694,7 @@ section#contact .form-group {
 section#contact .form-group input,
 section#contact .form-group textarea {
     padding: 20px;
+    color: #{{ site.data.template.color.primary }};
 }
 
 section#contact .form-group input.form-control {
@@ -843,6 +850,18 @@ ul.social-buttons li a:active {
 .btn.active,
 .btn:active:focus {
     outline: 0;
+}
+
+.contact-link {
+  text-transform: uppercase;
+  font-family: {{ site.data.template.font.primary }};
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #444;
+  -webkit-transition: all ease .35s;
+  -moz-transition: all ease .35s;
+  transition: all ease .35s;
 }
 
 .portfolio-modal .modal-content {

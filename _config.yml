@@ -21,24 +21,19 @@ people:
   pic: michael-fozeu
   position: Designer de transition
   social:
-    - title: twitter
-      url: https://twitter.com/mfozeu
     - title: linkedin
       url: https://www.linkedin.com/in/michaelfozeu/
-    - title: instagram
-      url: https://www.instagram.com/mike_oze/
-
+    - title: twitter
+      url: https://twitter.com/mfozeu
 
 - name: Glenn ROLLAND
   pic: glenn-rolland
   position: Expert systèmes et réseaux
   social:
-    - title: twitter
-      url: https://twitter.com/glenux
     - title: linkedin
       url: https://www.linkedin.com/in/glenux/
-    - title: github
-      url: https://github.com/glenux
+    - title: twitter
+      url: https://twitter.com/glenux
 
 - name: Raphaël RAULT
   pic: raphael-rault
@@ -52,7 +47,6 @@ social:
   - title: twitter
     url: https://twitter.com/easy_privacy
 
-
 # Postal address (add as many lines as necessary)
 address:
   - line: Fécamp
@@ -62,4 +56,3 @@ address:
 markdown: kramdown
 permalink: pretty
 permalink: contact
-
