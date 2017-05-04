@@ -22,10 +22,10 @@ people:
   pic: michael-fozeu
   position: Designer de transition
   social:
-    - title: twitter
-      url: https://twitter.com/mfozeu
     - title: linkedin
       url: https://www.linkedin.com/in/michaelfozeu/
+    - title: twitter
+      url: https://twitter.com/mfozeu
     - title: instagram
       url: https://www.instagram.com/mike_oze/
 
@@ -34,10 +34,10 @@ people:
   pic: glenn-rolland
   position: Expert systèmes et réseaux informatiques
   social:
-    - title: twitter
-      url: https://twitter.com/glenux
     - title: linkedin
       url: https://www.linkedin.com/in/glenux/
+    - title: twitter
+      url: https://twitter.com/glenux
     - title: github
       url: https://github.com/glenux
 
