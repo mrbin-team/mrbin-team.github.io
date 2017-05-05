@@ -13,11 +13,17 @@ project-date: April 2014
 client: Start Bootstrap
 category: Web Development
 description: |-
-  La solution applicative Easy Privacy vous permettra de piloter votre
-  conformité à 360°. Vous pourrez auditer chaque traitement, en gérer la
-  conformité et assurer un reporting selon les piliers du règlement.<br/><br/>
+  <b>Dites-nous comment vous avez mis en place et nous vous dirons où vous en
+  êtes au regard de la loi ?</b><br/><br/>
 
-  <span style="color: #00A076; font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif'>En cours de développement</span>
+  Easy Diagnostic, vous propose d’analyser les traitements les plus communs
+  comme l’envoi d’une newsletter.<br/>En fonction de vos réponses, nous vous
+  donnerons les zones de risque éventuelles et les actions à mettre en œuvre
+  pour être en conformité.<br/><br/>
+
+  Easy Diagnostic ne remplace pas un audit expert aboutissant à une mise en
+  conformité mais vous donne les pistes de réflexion pour améliorer vos
+  traitements et vous rapprochez de la conformité au GDPR.<br/><br/>
+
 
 ---
-

@@ -185,7 +185,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #ddd;
 }
 
 .navbar-default .navbar-brand {
@@ -340,6 +340,8 @@ header .intro-text .intro-heading {
         font-weight: 700;
         line-height: 75px;
     }
+
+
 }
 
 section {

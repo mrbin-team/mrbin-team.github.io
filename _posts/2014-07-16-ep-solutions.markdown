@@ -16,9 +16,9 @@ description: |-
   La solution applicative Easy Privacy vous permettra de piloter votre
   conformité à 360°. Vous pourrez auditer chaque traitement, en gérer la
   conformité et assurer un reporting selon les piliers du
-  réglement.</br></br>
-  
-  <font color="00A076" face='Montserrat, "Helvetica
-  Neue",Helvetica,Arial,sans-serif'>En cours de développement</font>
+  réglement.<br/><br/>
+
+  <span style="color: #00A076; font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif'">En cours de développement</span>
+
 
 ---

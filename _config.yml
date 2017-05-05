@@ -13,7 +13,7 @@ gems:
   - jekyll-sitemap
 
 
-# JEKYLL PLUGINS 
+# JEKYLL PLUGINS
 # ==============
 
 # Jekyll SEO plugin
@@ -75,4 +75,3 @@ address:
 markdown: kramdown
 permalink: pretty
 permalink: contact
-
