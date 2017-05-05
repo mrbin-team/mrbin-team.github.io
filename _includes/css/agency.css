@@ -43,6 +43,11 @@ a {
     color: #{{ site.data.template.color.primary }};
 }
 
+a:link
+{
+ text-decoration:none;
+} 
+
 a:hover,
 a:focus,
 a:active,
