@@ -325,7 +325,7 @@ header .intro-text .intro-heading {
     font-weight: 700;
     line-height: 50px;
     color: #{{ site.data.template.color.yellow }};
-    text-shadow: 0 0 1px rgba(0,0,0,0.75);
+    text-shadow: 0 0 50px rgba(0,0,0,0.25);
 }
 
 @media(min-width:768px) {
