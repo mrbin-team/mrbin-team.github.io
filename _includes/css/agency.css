@@ -4,6 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -231,7 +232,8 @@ fieldset[disabled] .btn-xl.active {
     margin: 12px 0px 0px 5px;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #444;
+    color: #eee;
+
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -260,9 +262,10 @@ fieldset[disabled] .btn-xl.active {
         padding: 25px 0;
         border: 0;
         background-color: transparent;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+        box-shadow: 0 0 0px transparent;
     }
 
     .navbar-default .navbar-brand {
@@ -275,10 +278,12 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px;
     }
+
 /*couleur bar en haut*/
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #ddd;
+        background-color: #222;
+        box-shadow: 0 0 5px orange;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -288,9 +293,9 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #333;
+    color: #{{ site.data.template.color.white }};
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/Top_picture_à_retoucher.jpg');
+    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center 10%;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -319,7 +324,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
-    color: #ff9a18;
+    color: #{{ site.data.template.color.yellow }};
     text-shadow: 0 0 1px rgba(0,0,0,0.75);
 }
 
@@ -377,6 +382,14 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+#portfolio {
+	background-color: #{{ site.data.template.color.yellow }};
+}
+
+#portfolio .section-subheading {
+	color: white;
 }
 
 #portfolio .portfolio-item {

@@ -5,6 +5,12 @@ color:
   secondary-dark: 333
   muted: 777
   muted2: ccc
+  yellow: "ff9a18"
+  white: "fefefe"
+  black: "101010"
+
+
+
 
 # Font Families
 font:
