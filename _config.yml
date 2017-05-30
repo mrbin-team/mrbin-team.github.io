@@ -28,16 +28,16 @@ logo: /img/logos/logo-easy-privacy-v4-color.256p.png
 
 # Team names, titles and social links
 people:
-  - name: Laure Isabelle LIGAUDAN
+  - name: Laure Isabelle<br/>LIGAUDAN
     pic: laure-isabelle-ligaudan
-    position: Spécialiste Privacy depuis 2004
+    position: Spécialiste Privacy<br/>depuis 2004
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/laure-isabelle-ligaudan-12834019/
       - title: twitter
         url: https://twitter.com/lilconseil
 
-  - name: Michael FOZEU
+  - name: Michael<br/>FOZEU
     pic: michael-fozeu
     position: Designer de transition
     social:
@@ -46,16 +46,16 @@ people:
       - title: twitter
         url: https://twitter.com/mfozeu
 
-  - name: Glenn ROLLAND
+  - name: Glenn<br/>ROLLAND
     pic: glenn-rolland
-    position: Expert systèmes et réseaux
+    position: Expert systèmes<br/>et réseaux
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/glenux/
       - title: twitter
         url: https://twitter.com/glenux
 
-  - name: Raphaël RAULT
+  - name: Raphaël<br/>RAULT
     pic: raphael-rault
     position: Avocat spécialisé Privacy
     social:

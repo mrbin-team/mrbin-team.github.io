@@ -322,9 +322,9 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
+    font-size: 46px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 46px;
     color: #{{ site.data.template.color.yellow }};
     text-shadow: 0 0 20px rgba(0,0,0,0.25);
 }
@@ -445,6 +445,7 @@ section h3.section-subheading {
     margin: 0 auto;
     padding: 25px;
     max-width: 400px;
+    height: 181px;
     text-align: center;
     background-color: #fff;
 }
@@ -691,6 +692,10 @@ section h3.section-subheading {
 
 .team-member p {
     margin-top: 0;
+    height: 3em;
+    margin-top: 15px;
+    /* border-top: 1px solid black; */
+    margin-bottom: 25px;
 }
 
 aside.clients img {
@@ -707,6 +712,10 @@ section#contact {
 
 section#contact .section-heading {
     color: #fff;
+}
+
+section#team .section-heading {
+	margin-bottom: 75px;
 }
 
 section#contact .form-group {
