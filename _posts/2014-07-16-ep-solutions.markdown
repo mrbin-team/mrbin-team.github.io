@@ -1,5 +1,5 @@
 ---
-title: EP solution
+title: EP Solution
 subtitle: |-
   Des outils au service du DPO et de l’organisation pour la mise en place d’une
   gestion responsable de la donnée.
