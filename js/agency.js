@@ -1,3 +1,5 @@
+/*jslint browser:true, devel:true */
+/*global $ */
 /*!
  * Start Bootstrap - Agnecy Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -18,11 +20,19 @@ $(function() {
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'
-})
+});
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
+});
+
+$(document).ready(function(){
+	setTimeout(function() {
+		var hash;
+		hash = document.location.hash;
+		$(hash).modal('show');
+	}, 250);
 });
 
 $('div.modal').on('show.bs.modal', function() {
@@ -33,5 +43,5 @@ $('div.modal').on('show.bs.modal', function() {
 		if (!location.hash){
 			$(modal).modal('hide');
 		}
-	}
+	};
 });
