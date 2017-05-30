@@ -11,6 +11,7 @@ description: "Nous développons les outils qui vous facilitent la mise en place 
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 
 # JEKYLL PLUGINS
