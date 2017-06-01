@@ -834,13 +834,25 @@ section#about #sensibilisation {
 footer {
     padding: 25px 0;
     text-align: center;
+    font-family: {{ site.data.template.font.primary }};
+}
+
+footer .find-us {
+	text-align: left;
+}
+
+footer .quicklinks {
+	text-align: right;
 }
 
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: {{ site.data.template.font.primary }};
     line-height: 40px;
+}
+
+footer ul {
+	display: inline-block;
 }
 
 footer ul.quicklinks {
@@ -856,18 +868,17 @@ ul.social-buttons {
 }
 
 ul.social-buttons li a {
-    display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    font-size: 20px;
-    line-height: 40px;
     outline: 0;
-    color: #fff;
-    background-color: #222;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
+}
+
+
+ul.social-buttons li.social-blog a {
+    width: 10em;
+    border-radius: 20px;
+    padding: 0 10px;
 }
 
 ul.social-buttons li a:hover,
