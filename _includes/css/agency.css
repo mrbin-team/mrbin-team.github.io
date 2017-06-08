@@ -838,11 +838,27 @@ footer {
 }
 
 footer .find-us {
-	text-align: left;
+	list-style-type: none;
+	/* text-align: left; */
+	padding: 0;
+}
+
+footer .find-us li {
+    line-height: 40px;
+}
+
+footer .find-us .social-media .fa {
+	margin-right: .5em;
 }
 
 footer .quicklinks {
-	text-align: right;
+	list-style-type: none;
+	/* text-align: right; */
+	padding: 0;
+}
+
+footer .quicklinks li {
+    line-height: 40px;
 }
 
 footer span.copyright {
@@ -868,7 +884,15 @@ ul.social-buttons {
 }
 
 ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
     outline: 0;
+    color: #fff;
+    background-color: #222;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
