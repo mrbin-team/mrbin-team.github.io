@@ -834,13 +834,41 @@ section#about #sensibilisation {
 footer {
     padding: 25px 0;
     text-align: center;
+    font-family: {{ site.data.template.font.primary }};
+}
+
+footer .find-us {
+	list-style-type: none;
+	/* text-align: left; */
+	padding: 0;
+}
+
+footer .find-us li {
+    line-height: 40px;
+}
+
+footer .find-us .social-media .fa {
+	margin-right: .5em;
+}
+
+footer .quicklinks {
+	list-style-type: none;
+	/* text-align: right; */
+	padding: 0;
+}
+
+footer .quicklinks li {
+    line-height: 40px;
 }
 
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: {{ site.data.template.font.primary }};
     line-height: 40px;
+}
+
+footer ul {
+	display: inline-block;
 }
 
 footer ul.quicklinks {
@@ -868,6 +896,13 @@ ul.social-buttons li a {
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
+}
+
+
+ul.social-buttons li.social-blog a {
+    width: 10em;
+    border-radius: 20px;
+    padding: 0 10px;
 }
 
 ul.social-buttons li a:hover,
