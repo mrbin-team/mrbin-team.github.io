@@ -1,6 +1,17 @@
-## Privacy Policy
+---
+title: Mentions légales
+subtitle: |-
+  Une équipe d'experts au sein de votre entreprise pour une mise en conformité
+  sans faille.
+layout: modal
+modal-id: 4
+featured: false
+date: '2014-07-18'
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
 
-* * *
+---
 
 #### Acceptation de fait
 
@@ -76,6 +87,4 @@ OZE & Co est immatriculée au RCS du Havre Siret : 823 633 920 & géré par Fred
 de la compta  
   
 © Copyright Oze & Co Tous droits réservés.
-
-__ Fermer
 

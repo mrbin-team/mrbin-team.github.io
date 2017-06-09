@@ -16,9 +16,9 @@ category: Web Development
 
 ---
 
-## Dites-nous ce que vous avez mis en place...
+#### Dites-nous ce que vous avez mis en place...
 
-__...et nous vous dirons où vous en êtes au regard de la loi !__
+__... et nous vous disons où vous en êtes au regard de la loi.__
 
 Easy Diagnostic, vous propose d’analyser les traitements les plus communs
 comme l’envoi d’une newsletter.

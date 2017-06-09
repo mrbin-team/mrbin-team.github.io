@@ -16,10 +16,11 @@ category: Web Development
 
 ---
 
-La solution applicative Easy Privacy vous permettra de piloter votre
+La solution applicative Easy Privacy vous permet de piloter votre
 conformité à 360°. Vous pourrez auditer chaque traitement, en gérer la
 conformité et assurer un reporting selon les piliers du
 réglement.
 
-<span style="color: #00A076; font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif'">En cours de développement</span>
+<p style="background-color: #00A076; padding: 10px; font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif'">
+Disponible à partir de septembre</p>
 
