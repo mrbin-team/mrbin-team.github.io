@@ -28,19 +28,40 @@ $(document).ready(function(){
 	});
 
 	$(".modal").on("hidden.bs.modal", function()  { // any time a modal is hidden
-    	var urlReplace = window.location.toString().split('#', 1)[0]
+    	var urlReplace = window.location.toString().split('#', 1)[0];
     	history.pushState(null, null, urlReplace); // push url without the hash as new history item
+	});
+
+	// remove modal on ESC
+	$('body').keyup(function(ev) {
+    	var urlSplit = window.location.toString().split(/#/),
+    		urlHash = '#' + urlSplit[1];
+		
+		if (ev.keyCode === 27) { // ESC key 
+			$(urlHash).modal('hide');
+		} 
+    	// history.pushState(null, null, urlReplace); // push url without the hash as new history item
 	});
 
 	$('.modal').on('show.bs.modal', function() {
 		var modal = this;
-		var urlReplace = '#' + modal.id;
-  		history.pushState(null, null, urlReplace);
+		var modalHash = '#' + modal.id;
+
+		// save new state in browser history
+  		history.pushState(null, null, modalHash);
+
+  		// hide modal if the hash changes
 		window.onhashchange = function() {
 			if (!location.hash){
 				$(modal).modal('hide');
 			}
 		};
+
+		// set the focus on the modal
+		setTimeout(function() {
+			$(document).focus();
+		}, 500);
+
 	});
 
 
