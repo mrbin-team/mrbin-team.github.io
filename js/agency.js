@@ -27,10 +27,15 @@ $(document).ready(function(){
     	target: '.navbar-fixed-top'
 	});
 
-	$('div.modal').on('show.bs.modal', function() {
+	$(".modal").on("hidden.bs.modal", function()  { // any time a modal is hidden
+    	var urlReplace = window.location.toString().split('#', 1)[0]
+    	history.pushState(null, null, urlReplace); // push url without the hash as new history item
+	});
+
+	$('.modal').on('show.bs.modal', function() {
 		var modal = this;
-		var hash = modal.id;
-		window.location.hash = hash;
+		var urlReplace = '#' + modal.id;
+  		history.pushState(null, null, urlReplace);
 		window.onhashchange = function() {
 			if (!location.hash){
 				$(modal).modal('hide');
