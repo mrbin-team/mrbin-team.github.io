@@ -15,20 +15,20 @@ category: Web Development
 
 #### Acceptation de fait
 
-En utilisant EASYPRIVACY.TECH, l’internaute prend note et accepte les
+En utilisant DATATRANSITION.NET, l’internaute prend note et accepte les
 conditions ici après énumérées.
 
 #### Abus
 
 En application de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans
 l’économie numérique, pour signaler un contenu litigieux ou si vous êtes
-victime d’une utilisation frauduleuse du site EASYPRIVACY.TECH, merci de
+victime d’une utilisation frauduleuse du site DATATRANSITION.NET, merci de
 contacter l’administrateur du site à l’adresse courriel :
-**glenn@easyprivacy.tech**
+**glenn@datatransition.net**
 
 #### Collecte et traitement de données personnelles
 
-Les informations recueillies par EASYPRIVACY.TECH ne sont jamais communiquées
+Les informations recueillies par DATATRANSITION.NET ne sont jamais communiquées
 à des tiers sans le consentement explicite des personnes concernées.  
   
 Sauf cas particulier et encadré sur le support de collecte, ces informations
@@ -39,37 +39,37 @@ de ces données.
 En application de la loi n° 78-17 du 6 janvier 1978 relative à l’informatique,
 aux fichiers et aux libertés, l’internaute dispose d’un droit d’accès, de
 rectification et de suppression des informations personnelles le concernant
-stockées par EASYPRIVACY.TECH, qu’il peut exercer à tout moment auprès de son
+stockées par DATATRANSITION.NET, qu’il peut exercer à tout moment auprès de son
 responsable, Laure Isabelle LIGAUDAN, à l'adresse suivante :
-**laure@easyprivacy.tech**.
+**laure@datatransition.net**.
 
 #### Cookies
 
-Le site EASYPRIVACY.TECH n'utilise d’aucun cookie, il est cookies free :)  
+Le site DATATRANSITION.NET n'utilise d’aucun cookie, il est cookies free :)  
   
-Toutefois EASYPRIVACY.TECH utilise CLOUDFLARE a des fins de distribution du
+Toutefois DATATRANSITION.NET utilise CLOUDFLARE a des fins de distribution du
 contenu des pages, entre l'hébergeur et l'internaute. Ce service insère un
 cookie a des fins techniques pour lui permettre d'acheminer correctement la
 connexion de l'internaute dans son infrastructure durant la visite du site.
 
 #### Propriétaire / Éditeur
 
-EASYPRIVACY.TECH est un site web édité par Oze & Co et publié sous la
+DATATRANSITION.NET est un site web édité par Oze & Co et publié sous la
 direction de Laure Isabelle LIGAUDAN, Michaël FOZEU et Glenn ROLLAND.
-L’ensemble du site easyprivacy.Tech, pages et contenus, est la propriété de
+L’ensemble du site datatransition.net, pages et contenus, est la propriété de
 Oze & Co.  
   
-Contact administratif du site EASYPRIVACY.TECH : Michaël FOZEU
-**michael@easyprivacy.tech**
+Contact administratif du site DATATRANSITION.NET : Michaël FOZEU
+**michael@datatransition.net**
 
 #### Hébergeur
 
-EASYPRIVACY.TECH décline toute responsabilité quant aux éventuelles
-interruptions du site EASYPRIVACY.TECH et de ses services.
+DATATRANSITION.NET décline toute responsabilité quant aux éventuelles
+interruptions du site DATATRANSITION.NET et de ses services.
 
 #### Concepteur / Créateur
 
-L’ensemble du site EASYPRIVACY.TECH, conception, charte graphique et
+L’ensemble du site DATATRANSITION.NET, conception, charte graphique et
 applications, a été créé et développé et est administré par Oze & Co.
 
 #### Contenus et droits de reproduction
