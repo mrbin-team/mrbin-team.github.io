@@ -17,7 +17,7 @@ category: Web Development
 
 En avril 2016, le Règlement pour la protection des données personnelles a été voté à l'Europe et sera applicable en mai 2018 à tous les pays européens et à toutes les entreprises au travers du monde qui collectent et traitent les données des citoyen-nes européen-nes.
 
-Les fondateurs de EASY PRIVACY viennent du monde de la gouvernance de la donnée via la sécurité informatique, le développement, l'économie numérique, la protection de la vie privée, la communication, la formation et l'enseignement professionnel.
+Les fondateurs de DATA TRANSITION viennent du monde de la gouvernance de la donnée via la sécurité informatique, le développement, l'économie numérique, la protection de la vie privée, la communication, la formation et l'enseignement professionnel.
 
 #### Historique
 
@@ -25,7 +25,7 @@ L'interêt pour la protection de la vie privée dans les systèmes d'information
 
 #### Motivation
 
-La compréhension de l'importance de cette activité de régulation dans l'économie numérique a été le moteur de l'implication professionnelle d'un des fondateurs de EASY PRIVACY. Le peu d'interêt porté par les entreprises sur ce sujet a déterminé les actions vers la sensibilisation et l'enseignement ainsi qu'un activisme pour faire comprendre le caractère essentiel de cette protection : le master de l'ISEP sur la protection des données, le Diplôme Universitaire de Nanterre, des cursus à ParisTech, des cursus à Villetaneuse , la création de l'AFCDP (Association française des correspondants informatique et libertés).
+La compréhension de l'importance de cette activité de régulation dans l'économie numérique a été le moteur de l'implication professionnelle d'un des fondateurs de DATA TRANSITION. Le peu d'interêt porté par les entreprises sur ce sujet a déterminé les actions vers la sensibilisation et l'enseignement ainsi qu'un activisme pour faire comprendre le caractère essentiel de cette protection : le master de l'ISEP sur la protection des données, le Diplôme Universitaire de Nanterre, des cursus à ParisTech, des cursus à Villetaneuse , la création de l'AFCDP (Association française des correspondants informatique et libertés).
 
 Une motivation identique pour un des membres qui a rejoint le réseau de l'AFCDP et dont les activités en tant qu'avocat se sont développés sur ce sujet.
 
@@ -48,16 +48,16 @@ Nous allons veiller à pouvoir répondre aux urgences actuelles de mises en conf
 
 #### Partenariat
 
-Notre volonté est de collaborer avec les acteurs de notre territoire proche pour développer nos solutions actuelles et a venir avec les acteurs privés et publics dans le domaine de la recherche et du développement, de l'enseignement et de l'emploi et de toutes autres activités permettant à EASY PRIVACY de se développer.
+Notre volonté est de collaborer avec les acteurs de notre territoire proche pour développer nos solutions actuelles et a venir avec les acteurs privés et publics dans le domaine de la recherche et du développement, de l'enseignement et de l'emploi et de toutes autres activités permettant à DATA TRANSITION de se développer.
 
 #### Economie
 
-Nous souhaitons développé des associations adaptées au fonctionnement du numérique dans nos fonctionnements internes de redistribution et avec nos clients et partenaires. Tout comme dans la proposition contractuelle pour la conformité au GDPR, la force proposition contractuelle fera parti de l'ADN de EASY PRIVACY.
+Nous souhaitons développé des associations adaptées au fonctionnement du numérique dans nos fonctionnements internes de redistribution et avec nos clients et partenaires. Tout comme dans la proposition contractuelle pour la conformité au GDPR, la force proposition contractuelle fera parti de l'ADN de DATA TRANSITION.
 
-Easy Privacy est une marque déposée de Oze & Co SARL au capital de 10 000 euros enregistrée au RCS du Havre. 
+Data Transition est une marque déposée de Oze & Co SARL au capital de 10 000 euros enregistrée au RCS du Havre. 
 Siret 823 633 920 00017 APE 7022Z
 
-EASY PRIVACY a vocation a devenir une entreprise autonome porté par ses fondateurs et associés : Laure Isabelle LIGAUDAN, Michaël FOZEU, Glenn ROLLAND, Raphaël RAULT.
+DATA TRANSITION a vocation a devenir une entreprise autonome porté par ses fondateurs et associés : Laure Isabelle LIGAUDAN, Michaël FOZEU, Glenn ROLLAND, Raphaël RAULT.
 
 Elle  s'inscrit dans le territoire Havrais et la Normandy French Tech, elle est incubée par Normandie Incubation.
 
@@ -86,7 +86,7 @@ __Traçabilité :__ les outils numériques et l'informatique permettent de conse
 
 __Ethique :__ toute activité aujourd'hui demande de prendre des décision qui doivent concilier des valeurs morales, collectives, individuelles et respecter des injonctions économiques, légales ou encore réglementaires. Tout questionnement sur ce type de médiation et devant aboutir à une décision se fera sur le mode de décision de l'arbitrage et incluera les personnes impactées par la décision finale.
 
-__Privacy :__ EASY PRIVACY acte la protection des droits et libertés fondamentales de l'homme et du citoyen-ne comme préalable à toute gestion de la data. Tous les projets de réflexion et/ou de production qui sont et seront portés par EASY PRIVACY sont Privacy by default. Il prendront en compte by Design la conformité GDPR comme norme d'audit pour les projets, évaluant les impacts potentiels et à venir sur la vie privée de ce qui sera proposé par ses acteurs.
+__Privacy :__ DATA TRANSITION acte la protection des droits et libertés fondamentales de l'homme et du citoyen-ne comme préalable à toute gestion de la data. Tous les projets de réflexion et/ou de production qui sont et seront portés par DATA TRANSITION sont Privacy by default. Il prendront en compte by Design la conformité GDPR comme norme d'audit pour les projets, évaluant les impacts potentiels et à venir sur la vie privée de ce qui sera proposé par ses acteurs.
 
 __Diffusion :__ les outils numériques permettent le partage et la diffusion. Nous réfléchissons et travaillons à permettre des redistributions équitables, innovantes et fiables afin de libérer la créativité, l'idéation, l'innovation ouverte sans générer de la démotivation, de la frustration, de la suspicion et finalement faire de ces opportunités de vitalité des freins contre productifs au développement.
 
