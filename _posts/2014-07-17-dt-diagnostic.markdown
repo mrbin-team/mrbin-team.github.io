@@ -1,7 +1,7 @@
 ---
-title: Easy Diagnostic
+title: DT Snaps
 subtitle: |-
-  L'auto-évaluation de ses process informationnels au regard de la loi. Un
+  L'auto-évaluation de ses process et ceux de ses partenaires au regard de la loi. Un
   moyen rapide de savoir où l'on en est.
 layout: modal
 featured: true
@@ -20,7 +20,7 @@ category: Web Development
 
 __... et nous vous disons où vous en êtes au regard de la loi.__
 
-Easy Diagnostic, vous propose d’analyser les traitements les plus communs
+DT Snaps, vous propose d’analyser les traitements les plus communs
 comme l’envoi d’une newsletter.
 
 En fonction de vos réponses, nous vous
