@@ -385,27 +385,115 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-#portfolio {
+#product_cards {
 	background-color: #{{ site.data.template.color.yellow }};
 }
 
-#portfolio .section-subheading {
+#product_cards .section-subheading {
 	color: white;
 }
 
-#portfolio .portfolio-item {
+#product_cards .portfolio-item {
     right: 0;
     margin: 0 0 50px;
 }
 
-#portfolio .portfolio-item .portfolio-link {
+#product_cards .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#product_cards .portfolio-item .portfolio-link .portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+    background: rgba(0,160,118,.9); /* Fallback when no plugin support */
+    background: rgba({{ site.data.template.color.yellow | hex_to_rgb | join: ',' }}, .9);
+}
+
+#product_cards .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1;
+}
+
+#product_cards .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#product_cards .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px;
+}
+
+#product_cards .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#product_cards .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin: 0;
+}
+
+#product_cards .portfolio-item .portfolio-caption {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    height: 181px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#product_cards .portfolio-item .portfolio-caption h4 {
+    margin: 0 0 15px 0;
+    text-transform: none;
+}
+
+#product_cards .portfolio-item .portfolio-caption p {
+    margin: 0;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+#product_cards * {
+    z-index: 4;
+}
+
+@media(min-width:768px) {
+    #product_cards .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+#hotline_cards {
+	background-color: #{{ site.data.template.color.primary }};
+}
+
+#hotline_cards .section-subheading {
+	color: white;
+}
+
+#hotline_cards .portfolio-item {
+    right: 0;
+    margin: 0 0 50px;
+}
+
+#hotline_cards .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#hotline_cards .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -417,11 +505,11 @@ section h3.section-subheading {
     background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+#hotline_cards .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#hotline_cards .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -432,16 +520,16 @@ section h3.section-subheading {
     color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#hotline_cards .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#hotline_cards .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#hotline_cards .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0;
 }
 
-#portfolio .portfolio-item .portfolio-caption {
+#hotline_cards .portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 25px;
     max-width: 400px;
@@ -450,12 +538,12 @@ section h3.section-subheading {
     background-color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-caption h4 {
+#hotline_cards .portfolio-item .portfolio-caption h4 {
     margin: 0 0 15px 0;
     text-transform: none;
 }
 
-#portfolio .portfolio-item .portfolio-caption p {
+#hotline_cards .portfolio-item .portfolio-caption p {
     margin: 0;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
@@ -463,12 +551,12 @@ section h3.section-subheading {
     line-height: 1.5;
 }
 
-#portfolio * {
+#hotline_cards * {
     z-index: 4;
 }
 
 @media(min-width:768px) {
-    #portfolio .portfolio-item {
+    #hotline_cards .portfolio-item {
         margin: 0 0 30px;
     }
 }
