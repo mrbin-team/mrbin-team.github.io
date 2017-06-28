@@ -2,9 +2,9 @@
 # MANDATORY SITE SETTINGS
 # =======================
 
-url: https://easyprivacy.tech
+url: https://datatransition.net
 baseurl: ""
-title: Easy Privacy
+title: Data Transition
 email: contact@datatransition.net
 description: "Nous développons les outils qui vous facilitent la mise en place d’une gestion responsable des données"
 
@@ -20,8 +20,8 @@ gems:
 # Jekyll SEO plugin
 lang: fr_FR
 twitter:
-    username: easy_privacy
-logo: /img/logos/logo-easy-privacy-v4-color.256p.png
+    username: DT_privacy
+logo: /img/logos/logo-DT-color-blackbg.256p.png
 
 # JEKYLL TEMPLATE
 # ===============
@@ -65,8 +65,8 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: https://twitter.com/easy_privacy
-    username: "@easy_privacy"
+    url: https://twitter.com/DT_privacy 
+    username: "@DT_privacy"
 
 # Postal address (add as many lines as necessary)
 address:

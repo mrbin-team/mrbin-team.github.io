@@ -30,7 +30,7 @@ p {
 
 p.large {
     font-size: 16px;
-}
+}rule/cssDuplicatedSelectors
 
 a,
 a:hover,
@@ -196,7 +196,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Helvetica Neue",Helvetica,Arial,cursive;
     color: #222; 
 }
 
@@ -804,30 +804,30 @@ section#about #sensibilisation {
 
 #logo {
   position: absolute;
-  width: 140px;
+  width: 100px;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;
-  top: 0px;
+  top: 2px;
 }
 
 @media (min-width: 768px) {
 	#logo {
   	  position: absolute;
-  	  width: 256px;
+  	  width: 160px;
   	  -webkit-transition: all .3s;
   	  -moz-transition: all .3s;
   	  transition: all .3s;
-  	  top: -15px;
+  	  top: 12px;
 	}
 }
 
 .navbar-shrink #logo {
-  width: 140px;
+  width: 100px;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;
-  top: 0px;
+  top: 2px;
 }
 
 
