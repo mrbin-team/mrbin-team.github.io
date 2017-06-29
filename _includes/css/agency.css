@@ -386,7 +386,7 @@ section h3.section-subheading {
 }
 
 #product_cards {
-	background-color: #{{ site.data.template.color.yellow }};
+	background-color: #{{ site.data.template.color.primary }};
 }
 
 #product_cards .section-subheading {
@@ -474,7 +474,7 @@ section h3.section-subheading {
 }
 
 #hotline_cards {
-	background-color: #{{ site.data.template.color.primary }};
+	background-color: #{{ site.data.template.color.yellow }};
 }
 
 #hotline_cards .section-subheading {
