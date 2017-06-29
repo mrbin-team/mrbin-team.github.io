@@ -1,12 +1,11 @@
 ---
-title: DT PrivacyManager 
+title: Forfait 5h
 subtitle: |-
-  Des outils au service du DPO et de l’organisation pour la mise en place d’une
-  gestion responsable de la donnée.
+  Vous avez besoin de précisions pour rassurer vos décisions ? 
 layout: modal
-modal-id: 3
-featured: true
-date: 2014-07-16
+modal-target-id: 9
+hotline: true
+date: 2014-06-02
 img: solution.jpg
 thumbnail: solution-thumbnail.jpg
 alt: image-alt
