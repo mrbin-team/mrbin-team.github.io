@@ -3,16 +3,16 @@ title: Audit GDPR
 subtitle: |-
   Une équipe d'experts au sein de votre entreprise pour une mise en conformité
   sans faille.
-layout: modal
-modal-id: 1
-featured: true
+alt: image-alt
+category: Web Development
+client: Start Bootstrap
 date: '2014-07-18'
 img: audit.jpg
-thumbnail: audit-thumbnail.jpg
-alt: image-alt
+layout: modal
+modal-id: 1
+product: true
 project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+thumbnail: audit-thumbnail.jpg
 
 ---
 

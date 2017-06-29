@@ -3,16 +3,16 @@ title: DT Snaps
 subtitle: |-
   L'auto-évaluation de ses process et ceux de ses partenaires au regard de la loi. Un
   moyen rapide de savoir où l'on en est.
-layout: modal
-featured: true
-modal-id: 2
+alt: image-alt
+category: Web Development
+client: Start Bootstrap
 date: '2014-07-17'
 img: diagnostic.jpg
-thumbnail: diagnostic-thumbnail.jpg
-alt: image-alt
+layout: modal
+modal-id: 2
+product: true
 project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+thumbnail: diagnostic-thumbnail.jpg
 
 ---
 
