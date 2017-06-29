@@ -1,5 +1,5 @@
 ---
-title: Votre forfait sur mesure 
+title: Votre accompagnement sur mesure 
 subtitle: |-
   Des outils au service du DPO et de l’organisation pour la mise en place d’une
   gestion responsable de la donnée.
@@ -31,6 +31,9 @@ conformité à 360°. Vous pourrez auditer chaque traitement, en gérer la
 conformité et assurer un reporting selon les piliers du
 réglement.
 
-<p style="background-color: #00A076; padding: 10px; font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif'">
-FIXME: mettre les boutons de paiement</p>
+<iframe allowtransparency="true" style="margin-left: 25%; margin-right: 25%;" src="https://paygreen.fr/paiement-caller/pay-button?paygreenBtnDatas=%7B%22idPayButton%22%3A%22dad478%22%7D" width="280" height="170" frameborder="0"></iframe>
+
+<iframe allowtransparency="true" src="https://paygreen.fr/paiement-caller/pay-button?paygreenBtnDatas=%7B%22idPayButton%22%3A%223e9426%22%7D" width="280" height="170" frameborder="0"></iframe>
+
+<iframe allowtransparency="true" src="https://paygreen.fr/paiement-caller/pay-button?paygreenBtnDatas=%7B%22idPayButton%22%3A%22a75478%22%7D" width="280" height="170" frameborder="0"></iframe>
 
