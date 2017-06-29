@@ -12,7 +12,7 @@ layout: modal
 modal-id: 1
 product: true
 project-date: April 2014
-thumbnail: audit-thumbnail.jpg
+thumbnail: product-audit-thumbnail.jpg
 
 ---
 

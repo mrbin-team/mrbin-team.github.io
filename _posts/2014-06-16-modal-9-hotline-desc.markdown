@@ -6,8 +6,8 @@ subtitle: |-
 layout: modal
 modal-id: 9
 date: 2014-06-03
-img: solution.jpg
-thumbnail: solution-thumbnail.jpg
+img: hotline-auditeur.jpg
+thumbnail: hotline-auditeur-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

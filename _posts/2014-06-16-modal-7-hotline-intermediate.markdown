@@ -6,8 +6,8 @@ layout: modal
 modal-target-id: 9
 hotline: true
 date: 2014-06-02
-img: solution.jpg
-thumbnail: solution-thumbnail.jpg
+img: hotline-email.jpg
+thumbnail: hotline-email-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

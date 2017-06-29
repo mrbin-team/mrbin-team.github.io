@@ -7,11 +7,11 @@ category: Hotline
 client: Start Bootstrap
 date: 2014-07-16
 hotline: true
-img: solution.jpg
+img: hotline-phone.jpg
 layout: modal
 modal-target-id: 9
 project-date: April 2014
-thumbnail: solution-thumbnail.jpg
+thumbnail: hotline-phone-thumbnail.jpg
 
 ---
 
