@@ -1093,6 +1093,12 @@ ul.social-buttons li a:active {
   font-size: 15px;
   text-align: justify;
 }
+
+.portfolio-modal .modal-body ul {
+  font-size: 15px;
+  text-align: justify;
+}
+
 .portfolio-modal .modal-body p .development {
   color: #{{ site.data.template.color.primary }};
 }

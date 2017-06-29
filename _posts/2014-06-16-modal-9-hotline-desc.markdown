@@ -16,20 +16,28 @@ category: Hotline
 ---
 
 
-Des experts privacy répondent à vos questions par téléphone et par mail.
 
-Suite à votre souscription, vous recevrez un mail avec le numéro de téléphone et l'adresse mail à laquelle vous pouvez vos questions.
 
-Notre premier échange peut répondre à l'intégralité de vos questions. Il peut définir un autre rendez-vous si la complexité de votre demande nécessite des recherches pour répondre à vos besoins.
+### Comment ça marche ?
 
-Vous pouvez demandez une facture à nos équipes.
+__Nous vous proposons un crédit de temps pour répondre à toutes vos questions sur la mise en conformité GDPR.__
 
-Vous recevrez si les échanges sont téléphoniques un récapitulatif de nos échanges par mail.
+En souscrivant, vous __recevrez un email avec le numéro de téléphone et l'adresse email à laquelle vous pourrez poser vos questions__ concernant le GDPR. Nous vous envoyons également votre facture.
 
-La solution applicative Data Transition vous permet de piloter votre
-conformité à 360°. Vous pourrez auditer chaque traitement, en gérer la
-conformité et assurer un reporting selon les piliers du
-réglement.
+Par la suite __chacun de nos échanges décompte le temps consommé sur votre crédit de temps__.
+
+Nous vous envoyons __un récapitulatif par email lorsque nos échanges sont téléphoniques__.
+
+Nous vous envoyons aussi __un récapitulatif des unités de temps qu'il vous reste__ après chaque échange.
+
+### Et si ma demande est complexe ?
+
+Dans le cas où votre besoin requiert une analyse spécifique ou des recherches
+approfondies, nous vous envoyons d'abord une estimation des unités de temps
+pour le travail nécessaire et nous définissons ensemble un autre rendez-vous.
+
+
+### Je veux souscrire
 
 <iframe allowtransparency="true" style="margin-left: 25%; margin-right: 25%;" src="https://paygreen.fr/paiement-caller/pay-button?paygreenBtnDatas=%7B%22idPayButton%22%3A%22dad478%22%7D" width="280" height="170" frameborder="0"></iframe>
 
