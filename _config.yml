@@ -22,6 +22,8 @@ lang: fr_FR
 twitter:
     username: DT_privacy
 logo: /img/logos/logo-DT-color-blackbg.256p.png
+image: 
+    path: /img/logos/logo-DT-color-blackbg.256p.png
 
 # JEKYLL TEMPLATE
 # ===============
