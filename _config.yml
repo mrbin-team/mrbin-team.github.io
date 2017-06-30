@@ -30,7 +30,7 @@ logo: /img/logos/logo-DT-color-blackbg.256p.png
 people:
   - name: Laure Isabelle<br/>LIGAUDAN
     pic: laure-isabelle-ligaudan
-    position: Spécialiste Privacy<br/>depuis 2004
+    position: Métier et produits
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/laure-isabelle-ligaudan-12834019/
@@ -39,7 +39,7 @@ people:
 
   - name: Michael<br/>FOZEU
     pic: michael-fozeu
-    position: Designer de transition
+    position: Stratégie et innovation
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/michaelfozeu/
@@ -48,7 +48,7 @@ people:
 
   - name: Glenn<br/>ROLLAND
     pic: glenn-rolland
-    position: Expert systèmes<br/>et réseaux
+    position: Sécurité et systèmes d'information
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/glenux/
@@ -57,7 +57,7 @@ people:
 
   - name: Raphaël<br/>RAULT
     pic: raphael-rault
-    position: Avocat spécialisé Privacy
+    position: Juridique et certifications
     social:
     - title: linkedin
       url: https://www.linkedin.com/in/rrault/?ppe=1
