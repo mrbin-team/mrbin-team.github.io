@@ -2,11 +2,11 @@
 # MANDATORY SITE SETTINGS
 # =======================
 
-url: https://datatransition.net
+url: https://mrbin.fr
 baseurl: ""
-title: Data Transition
-email: contact@datatransition.net
-description: "Nous développons les outils qui vous facilitent la mise en place d’une gestion responsable des données"
+title: Mr Bin
+email: bonjour@mrbin.fr
+description: "Votre coach zéro-déchet"
 
 gems:
   - jekyll-seo-tag
@@ -20,62 +20,50 @@ gems:
 # Jekyll SEO plugin
 lang: fr_FR
 twitter:
-    username: DT_privacy
-logo: /img/logos/logo-DT-color-blackbg.256p.png
+    username: Mrbin_Fr
+logo: /img/logos/logo-color-blackbg.256p.png
 image: 
-    path: /img/logos/logo-DT-color-blackbg.256p.png
+    path: /img/logos/logo-color-blackbg.256p.png
 
 # JEKYLL TEMPLATE
 # ===============
 
 # Team names, titles and social links
 people:
-  - name: Laure Isabelle<br/>LIGAUDAN
-    pic: laure-isabelle-ligaudan
-    position: Métier et produits
+  - name: Cécile<br/>TOSTIVINT
+    pic: cecile-tostivint
+    position: Présidente
     social:
       - title: linkedin
-        url: https://www.linkedin.com/in/laure-isabelle-ligaudan-12834019/
+        url: https://www.linkedin.com/in/c%C3%A9cile-tostivint-12888a80
       - title: twitter
-        url: https://twitter.com/lilconseil
-
-  - name: Michael<br/>FOZEU
-    pic: michael-fozeu
-    position: Stratégie et innovation
-    social:
-      - title: linkedin
-        url: https://www.linkedin.com/in/michaelfozeu/
-      - title: twitter
-        url: https://twitter.com/mfozeu
+        url: https://twitter.com/ceciletostivint
 
   - name: Glenn<br/>ROLLAND
     pic: glenn-rolland
-    position: Sécurité et systèmes d'information
+    position: Directeur technique 
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/glenux/
       - title: twitter
         url: https://twitter.com/glenux
 
-  - name: Raphaël<br/>RAULT
-    pic: raphael-rault
-    position: Juridique et certifications
-    social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/rrault/?ppe=1
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: https://twitter.com/DT_privacy 
-    username: "@DT_privacy"
+    url: https://twitter.com/MrBin_Fr
+    username: "@MrBin_Fr"
+  - title: facebook
+    url: https://m.me/mrbin-fr
+    username: "/mrbin-fr"
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Fécamp
-  - line: Fécamp
+  - line: Paris
 
 # Build settings
 markdown: kramdown
 permalink: pretty
 permalink: contact
+
