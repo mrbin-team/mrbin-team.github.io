@@ -4,10 +4,15 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+html {
+	font-size: 62.5%;
+}
 
 body {
+	font-size: 1.6rem;
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -24,7 +29,7 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 1.6rem;
     line-height: 1.75;
 }
 
@@ -62,7 +67,6 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
 }
@@ -191,8 +195,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    border-bottom: 1px solid orange;
-    background-color: #222;
+    border-bottom: 1px solid {{ site.data.template.color.primary-dark }};
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-brand {
@@ -233,7 +237,7 @@ fieldset[disabled] .btn-xl.active {
     margin: 12px 0px 0px 5px;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #eee;
+    color: #{{ site.data.template.color.primary-text }};
 
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
@@ -256,6 +260,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
+    box-shadow: 0 0 10px #{{ site.data.template.color.primary-dark }};
 }
 
 @media(min-width:768px) {
@@ -263,10 +268,11 @@ fieldset[disabled] .btn-xl.active {
         padding: 25px 0;
         border: 0;
         background-color: transparent;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
+        -webkit-transition: all .2s;
+        -moz-transition: all .2s;
+        transition: all .2s;
         border-bottom: 1px solid transparent;
+        box-shadow: 0 0 0px #{{ site.data.template.color.primary-dark }};
     }
 
     .navbar-default .navbar-brand {
@@ -283,8 +289,9 @@ fieldset[disabled] .btn-xl.active {
 	/*couleur de la barre en haut*/
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
-        border-bottom: 1px solid orange;
+    	background-color: #{{ site.data.template.color.primary }};
+        border-bottom: 1px solid #{{ site.data.template.color.primary }};
+        box-shadow: 0 0 10px #{{ site.data.template.color.primary-dark }};
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -295,10 +302,11 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #{{ site.data.template.color.white }};
-    background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center 10%;
+    background-attachment: fixed;
     background-repeat: none;
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -318,14 +326,19 @@ header .intro-text .intro-lead-in {
     line-height: 22px;
 }
 
+header .intro-text .intro-lead-in img {
+	width: 80%;
+	text-align: center;
+}
+
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+    margin-bottom: 36px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 46px;
     font-weight: 700;
     line-height: 46px;
-    color: #{{ site.data.template.color.yellow }};
+    color: #{{ site.data.template.color.primary-text }};
     text-shadow: 0 0 20px rgba(0,0,0,0.25);
 }
 
@@ -341,6 +354,9 @@ header .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
+    }
+    header .intro-text .intro-lead-in img {
+    	width: 600px;
     }
 
     header .intro-text .intro-heading {
@@ -772,15 +788,26 @@ section h3.section-subheading {
     border: 7px solid #fff;
 }
 
-.team-member h4 {
+.team-member .name {
+	text-transform: none;
+    color: #{{ site.data.template.color.primary-dark }};
+    font-size: 1em;
+}
+
+.team-member .position {
     margin-top: 25px;
     margin-bottom: 0;
-    text-transform: none;
+    font-size: 19px;
+    font-weight: bold;
+    color: #{{ site.data.template.color.primary-text }};
+}
+
+.team-member .description {
+    color: #{{ site.data.template.color.primary-text }};
 }
 
 .team-member p {
     margin-top: 0;
-    height: 3em;
     margin-top: 15px;
     /* border-top: 1px solid black; */
     margin-bottom: 25px;
@@ -791,15 +818,25 @@ aside.clients img {
 }
 
 section#contact {
-    background-image: url('{{ site.baseurl }}/img/test.png');
-    background-color: #222;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #{{ site.data.template.color.primary-dark }};
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
 }
 
 
 section#contact .section-heading {
     color: #fff;
+}
+
+section#team {
+    background-image: url('{{ site.baseurl }}/img/team.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section#team h2 {
+	color: #{{ site.data.template.color.primary-dark }};
 }
 
 section#team .section-heading {
@@ -896,7 +933,8 @@ section#about #sensibilisation {
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;
-  top: 2px;
+  top: 6px;
+  opacity: 1;
 }
 
 @media (min-width: 768px) {
@@ -906,7 +944,8 @@ section#about #sensibilisation {
   	  -webkit-transition: all .3s;
   	  -moz-transition: all .3s;
   	  transition: all .3s;
-  	  top: 12px;
+  	  top: -13px;
+  	  opacity: 0;
 	}
 }
 
@@ -915,7 +954,8 @@ section#about #sensibilisation {
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;
-  top: 2px;
+  top: 6px;
+  opacity: 1;
 }
 
 

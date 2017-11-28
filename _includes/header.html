@@ -10,7 +10,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                  <img src="img/logos/logo-DT-color-blackbg.256p.png"  alt="" id="logo">
+                  <img src="img/logos/logo.svg"  alt="" id="logo">
                 </a>
             </div>
 
@@ -20,24 +20,11 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Vision</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#hotline_cards">Conseil</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#product_cards">Produits</a>
-                    </li>
-<!--                    <li>
-                        <a class="page-scroll" href="#about">Sensibilisation</a>
-                    </li> -->
-                    <li>
-                        <a class="page-scroll" href="#team">Equipe</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+                   	{% for link in site.data.menu %}
+                    	<li>
+                        	<a class="page-scroll" href="{{ link.href }}">{{ link.title }}</a>
+                    	</li>
+                   	{% endfor %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -49,8 +36,8 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">L'expertise accessible pour</div>
-                <div class="intro-heading">faire société<br/>à l'ère numérique</div>
+                <div class="intro-lead-in"><img src="img/logos/logo.svg"  alt="Mr Bin" ></div>
+                <div class="intro-heading">Votre coach zéro-déchet</div>
                 <a href="#services" class="page-scroll btn btn-xl">En savoir plus</a>
             </div>
         </div>

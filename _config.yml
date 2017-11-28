@@ -21,34 +21,40 @@ gems:
 lang: fr_FR
 twitter:
     username: Mrbin_Fr
-logo: /img/logos/logo-color-blackbg.256p.png
+logo: /img/logos/logo.png
 image: 
-    path: /img/logos/logo-color-blackbg.256p.png
+    path: /img/logos/logo.png
 
 # JEKYLL TEMPLATE
 # ===============
 
 # Team names, titles and social links
 people:
-  - name: Cécile<br/>TOSTIVINT
+  - name: Cécile
     pic: cecile-tostivint
-    position: Présidente
+    position: Mrs Bin
+    desc: |
+      Il y a un peu plus d'un an, Cécile est devenue zéro-déchet.
+      Un jour elle parle à Glenn de
+      son envie d’aider chaque citoyen à
+      réduire ses déchets. Mais elle n’a
+      pas le don d’ubiquité, il faut trouver une 
+      solution pour aider un maximum de monde !
     social:
-      - title: linkedin
-        url: https://www.linkedin.com/in/c%C3%A9cile-tostivint-12888a80
-      - title: twitter
-        url: https://twitter.com/ceciletostivint
-
-  - name: Glenn<br/>ROLLAND
+  - name: Glenn
     pic: glenn-rolland
-    position: Directeur technique 
+    position: Mr Bin
+    desc: |
+      Glenn, entrepreneur spécialisé
+      dans la production d'outils numériques,
+      parle à Cécile des chatbots,
+      ces nouveaux conseillers virtuels
+      qui ont la possibilité d’aider tous
+      ceux qui le souhaitent à réduire
+      leurs déchets. L’aventure peut
+      commencer !
     social:
-      - title: linkedin
-        url: https://www.linkedin.com/in/glenux/
-      - title: twitter
-        url: https://twitter.com/glenux
-
-
+    
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
