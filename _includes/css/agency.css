@@ -2,6 +2,8 @@
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * FONT GRID SIZE: 28px  OFFSET: 16px
  */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
@@ -319,7 +321,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 22px;
     font-style: italic;
@@ -337,35 +339,36 @@ header .intro-text .intro-heading {
     font-family: {{ site.data.template.font.primary }};
     font-size: 46px;
     font-weight: 700;
-    line-height: 46px;
+    line-height: 52px;
     color: #{{ site.data.template.color.primary-text }};
     text-shadow: 0 0 20px rgba(0,0,0,0.25);
 }
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 200px;
-        padding-bottom: 300px;
+        padding-top: 110px;
+        padding-bottom: 298px;
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        margin-bottom: 50px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
     }
+
     header .intro-text .intro-lead-in img {
     	width: 600px;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 70px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 75px;
+        font-size: 74px;
         font-weight: 700;
-        line-height: 75px;
+        line-height: 84px;
     }
 
 
@@ -392,13 +395,19 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 158px 0;
     }
 }
 
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+@media(min-width:768px) {
+	.service-heading {
+    	margin: 25px 0 34px 0;
+	}
 }
 
 #product_cards {
