@@ -1,4 +1,4 @@
- <!-- jQuery Version 1.11.0 -->
+ 	<!-- jQuery Version 1.11.0 -->
     <script src="{{ "js/jquery-3.2.1.min.js" | prepend: site.baseurl }}"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -8,13 +8,12 @@
     <script src="{{ "/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/classie.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/typed.min.js" | prepend: site.baseurl }}"></script>
 
     <!-- Contact Form JavaScript -->
     <script src="{{ "/js/jqBootstrapValidation.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/contact_me.js" | prepend: site.baseurl }}"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
 
 	<!-- Make sure HTTPS version of the site is used -->
     <script>
@@ -24,4 +23,13 @@
     	   window.location.protocol = "https";
        }
     </script>
+
+    <!-- Custom Theme JavaScript -->
+	<script>
+		window.demoText = [
+		  {% for intro in site.data.header.intros %}"{{ intro }}",
+		  {% endfor %}
+		];
+	</script>
+    <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
 

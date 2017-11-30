@@ -37,13 +37,7 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in"><img src="{{ page.url | prepend: site.baseurl }}img/logos/logo.svg"  alt="Mr Bin" ></div>
-                <div class="intro-heading">{{ site.data.header.intro }}</div>
-
-            	<div class="block-demo">
-        			{% for intro in site.data.header.intros %}
-                    <p class="text-muted text-left text-demo"><img src="{{ page.url | prepend: site.baseurl }}img/logos/logo.svg"  alt="Mr Bin" style="width: 100px;" />, {{ intro }}</p>
-            		{% endfor %}
-            	</div>
+            	<div class="intro-demo"><p><span class="intro-demo-text"></span></p></div>
 
                 <a href="{{ site.data.header.action.href }}" class="page-scroll btn btn-xl">{{ site.data.header.action.title }}</a>
             </div>

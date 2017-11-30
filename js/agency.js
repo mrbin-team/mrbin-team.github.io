@@ -64,10 +64,19 @@ $(document).ready(function(){
 
 	});
 
+	// console.log(window.demoText);
+	$("header .intro-demo .intro-demo-text").typed({
+		strings: window.demoText,
+		showCursor: true,
+		smartBackspace: true,
+		loop: true,
+		typeSpeed: 40,
+	});
 
 	var hash = document.location.hash;
 	var $window = $(window);
 	$(hash).modal('show');
 	$window.trigger('scroll');
 	$window.trigger('resize');
+
 });
