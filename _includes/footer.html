@@ -2,9 +2,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
+                    Suivez-nous sur :
                     <ul class="find-us">
                         {% for network in site.social %}
-                        <li class="social-media"><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i>{{ network.username }} </a>
+                        <li class="social-media"><a href="{{ network.url }}"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-{{ network.title }} fa-stack-1x fa-inverse"></i></a>
                         </li>
                         {% endfor %}
                     </ul>

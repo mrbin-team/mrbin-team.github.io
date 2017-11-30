@@ -3,10 +3,10 @@ color:
   primary: "669C91"
   primary-dark: "4F6964"
   primary-text: "101010"
-  secondary: D9FFF7
+  secondary: "D9FFF7"
   secondary-text: "000000"
   secondary-dark: "669C91"
-  muted: 777
+  muted: 333
   muted2: ccc
   yellow: "ff9a18"
   green: "00A076"
@@ -19,3 +19,4 @@ color:
 font:
   primary: '"Roboto Slab", serif'
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+

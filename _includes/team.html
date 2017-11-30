@@ -10,8 +10,7 @@
                 {% for member in site.people %}
                 <div class="col-sm-6 col-md-6">
                     <div class="team-member">
-                        <p class="position">{{ member.position }}</p>
-                        <h4 class="name">{{ member.name }}</h4>
+                        <h4 class="name">{{ member.position }} ({{ member.name }})</h4>
                         <p class="description text-left">{{ member.desc }}</p>
                         <ul class="list-inline social-buttons">
                             {% for network in member.social %}

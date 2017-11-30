@@ -8,10 +8,10 @@ $(function() {
         submitSuccess: function($form, event) {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
-            var name = $("input#name").val();
-            var email = $("input#email").val();
-            var phone = $("input#phone").val();
-            var message = $("textarea#message").val();
+            var name = $("input#contact_name").val();
+            var email = $("input#contact_email").val();
+            var phone = $("input#contact_phone").val();
+            var message = $("textarea#contact_message").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
@@ -30,12 +30,12 @@ $(function() {
                 cache: false,
                 success: function() {
                     // Success message
-                    $('#success').html("<div class='alert alert-success'>");
-                    $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                    $('#contact_success').html("<div class='alert alert-success'>");
+                    $('#contact_success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-success')
+                    $('#contact_success > .alert-success')
                         .append("<strong>Your message has been sent. </strong>");
-                    $('#success > .alert-success')
+                    $('#contact_success > .alert-success')
                         .append('</div>');
 
                     //clear all fields

@@ -15,7 +15,7 @@ html {
 body {
 	font-size: 1.6rem;
     overflow-x: hidden;
-    color: #{{ site.data.template.color.secondary-dark }};
+    color: #{{ site.data.template.color.black }};
 }
 
 .text-muted {
@@ -37,7 +37,7 @@ p {
 
 p.large {
     font-size: 16px;
-}rule/cssDuplicatedSelectors
+}
 
 a,
 a:hover,
@@ -417,6 +417,22 @@ section h3.section-subheading {
 	position: relative;
 	top: -11px;
 	margin-right: -5px;
+}
+
+#concept .iphone-demo {
+	height: 500px;
+}
+
+#concept .block-demo {
+	background-color: #0284fe;
+	padding: 20px;
+	color: white;
+	border-radius: 20px;
+}
+
+#concept .text-demo {
+	font-size: 120%;
+	color: white;
 }
 
 #services {
@@ -1093,7 +1109,6 @@ ul.social-buttons li a:active {
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 1px;
-  color: #444;
   -webkit-transition: all ease .35s;
   -moz-transition: all ease .35s;
   transition: all ease .35s;

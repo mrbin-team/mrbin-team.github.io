@@ -7,17 +7,17 @@
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
+
             <div class="row">
-                <div class="col-sm-12 col-md-12">
+                <div class="col-sm-6 col-md-6">
                     <p class="text-muted text-left">{{ site.data.concept.description }}</p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 col-md-12">
-        			{% for example in site.data.concept.examples %}
-                    <p class="text-muted text-left"><img src="{{ page.url | prepend: site.baseurl }}img/logos/logo.svg"  alt="Mr Bin" class="mini-logo"/>, {{ example }}</p>
-            		{% endfor %}
+
+
+                <div class="col-sm-6 col-md-6">
+                    <p class="text-center"><img src="{{ page.url | prepend: site.baseurl }}img/iphone-front-blur.png"  alt="Mr Bin" class="iphone-demo"/>, {{ example }}</p>
                 </div>
             </div>
+
         </div>
     </section>
