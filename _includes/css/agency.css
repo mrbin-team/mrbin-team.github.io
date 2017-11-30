@@ -410,6 +410,19 @@ section h3.section-subheading {
 	}
 }
 
+/* *** SECTION SPECIFIC SETTINGS *** */
+
+#concept .mini-logo { 
+	width: 100px; 
+	position: relative;
+	top: -11px;
+	margin-right: -5px;
+}
+
+#services {
+	background-color: #e8f9f6;
+}
+
 #product_cards {
 	background-color: #{{ site.data.template.color.primary }};
 }
@@ -584,6 +597,17 @@ section h3.section-subheading {
     #hotline_cards .portfolio-item {
         margin: 0 0 30px;
     }
+}
+
+#subscribe {
+    color: #fefefe;
+    background-image: url(/img/header-bg.jpg);
+    background-position: center 10%;
+    background-attachment: fixed;
+}
+
+#subscribe .section-heading {
+	color: #333;
 }
 
 .timeline {
@@ -860,6 +884,7 @@ section#contact .form-group input,
 section#contact .form-group textarea {
     padding: 20px;
     color: #{{ site.data.template.color.primary }};
+    border: 2px solid #333;
 }
 
 section#contact .form-group input.form-control {
@@ -929,6 +954,13 @@ section#contact #mentions {
 
 section#about #sensibilisation {
   margin-top: 75px;
+}
+
+#subscribe .form-group input,
+#subscribe .form-group textarea {
+    padding: 20px;
+    color: #{{ site.data.template.color.primary }};
+    border: 2px solid #333;
 }
 
 .navbar-brand {

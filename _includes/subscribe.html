@@ -1,0 +1,30 @@
+<section id="subscribe">
+  	<div class="container">
+    	<div class="row">
+      		<div class="col-lg-12 text-center">
+        		<h2 class="section-heading">{{ site.data.subscribe.title }}</h2>
+        		<h3 class="section-subheading text-muted">{{ site.data.subscribe.subtitle }}</h3>
+      		</div>
+    	</div>
+    	<div class="row">
+      		<div class="col-lg-12">
+        		<form name="sentMessage" id="contactForm" novalidate>
+          			<div class="row">
+            			<div class="col-md-8">
+              				<div class="control-group form-group">
+                				<input type="email" class="form-control input-block" placeholder="Votre email *" id="email" name="email" required data-validation-required-message="Entrer votre adresse email svp." />
+                				<p class="help-block text-danger"></p>
+              				</div>
+            			</div>
+            	   		<div class="col-md-4">
+              	   			<div class="control-group form-group text-center">
+              	   				<button type="submit" class="form-control btn btn-primary btn-large">{{ site.data.subscribe.action.title }}</button>
+              	   			</div>
+            	   		</div>
+          			</div>
+        		</form>
+      		</div>
+    	</div>
+  	</div>
+</section>
+

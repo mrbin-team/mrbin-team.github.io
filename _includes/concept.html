@@ -12,19 +12,12 @@
                     <p class="text-muted text-left">{{ site.data.concept.description }}</p>
                 </div>
             </div>
-            <!-- 
-            <div class="row text-left">
-        		{% for example in site.data.concept.examples %}
-                	<div class="col-sm-4 col-md-4">
-                    	<span class="fa-stack fa-4x">
-                        	<i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        	<i class="fa fa-{{ concept.icon }} fa-stack-1x fa-inverse"></i>
-                    	</span>
-                    	<h4 class="service-heading">{{ concept.title }}</h4>
-                    	<p class="text-muted text-left">{{ concept.description }}</p>
-                	</div>
-            	{% endfor %}
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+        			{% for example in site.data.concept.examples %}
+                    <p class="text-muted text-left"><img src="{{ page.url | prepend: site.baseurl }}img/logos/logo.svg"  alt="Mr Bin" class="mini-logo"/>, {{ example }}</p>
+            		{% endfor %}
+                </div>
             </div>
-            -->
         </div>
     </section>

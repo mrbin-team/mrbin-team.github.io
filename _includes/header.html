@@ -36,14 +36,10 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in"><img src="img/logos/logo.svg"  alt="Mr Bin" ></div>
-                <div class="intro-heading">Votre coach zéro-déchet</div>
-                <a href="#services" class="page-scroll btn btn-xl">En savoir plus</a>
+                <div class="intro-lead-in"><img src="{{ page.url | prepend: site.baseurl }}img/logos/logo.svg"  alt="Mr Bin" ></div>
+                <div class="intro-heading">{{ site.data.header.intro }}</div>
+                <a href="{{ site.data.header.action.href }}" class="page-scroll btn btn-xl">{{ site.data.header.action.title }}</a>
             </div>
         </div>
     </header>
-<!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
- -->
+
