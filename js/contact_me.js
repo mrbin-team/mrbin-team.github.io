@@ -20,6 +20,7 @@ $(function() {
                 url: "https://formspree.io/bonjour@mrbin.fr",
                 type: "POST",
                 data: {
+                    subject: "PRISE DE CONTACT",
                     name: name,
                     email: email,
                     message: message

@@ -18,6 +18,7 @@ $(function() {
                 url: "https://formspree.io/bonjour@mrbin.fr",
                 type: "POST",
                 data: {
+                    subject: "INSCRIPTION AU BÊTA-TEST",
                     email: email,
                 },
                 dataType: "json",
