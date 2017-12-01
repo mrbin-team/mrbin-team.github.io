@@ -29,37 +29,14 @@ image:
 # ===============
 
 # Team names, titles and social links
-people:
-  - name: Cécile
-    pic: cecile-tostivint
-    position: Mrs Bin
-    desc: |
-      Il y a un peu plus d'un an, Cécile est devenue zéro-déchet.
-      Un jour elle parle à Glenn de
-      son envie d’aider chaque citoyen à
-      réduire ses déchets. Mais elle n’a
-      pas le don d’ubiquité, il faut trouver une 
-      solution pour aider un maximum de monde !
-    social:
-  - name: Glenn
-    pic: glenn-rolland
-    position: Mr Bin
-    desc: |
-      Glenn, entrepreneur spécialisé
-      dans la production d'outils numériques,
-      parle à Cécile des chatbots,
-      ces nouveaux conseillers virtuels
-      qui ont la possibilité d’aider tous
-      ceux qui le souhaitent à réduire
-      leurs déchets. L’aventure peut
-      commencer !
-    social:
     
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: facebook
-    url: https://m.me/mrbin-fr
+    url: https://www.facebook.com/mrbin.fr/
     username: "/mrbin-fr"
+#   url: https://m.me/mrbin-fr
+
 #  - title: twitter
 #  url: https://twitter.com/MrBin_Fr
 #  username: "@MrBin_Fr"

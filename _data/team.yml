@@ -1,0 +1,24 @@
+
+title: Notre équipe
+
+people:
+  - name: Cécile
+    pic: cecile-tostivint
+    position: Mrs Bin
+    desc: |
+      Cécile a démarré sa transition vers le zéro-déchet il y a un an et demi.
+      Elle passe alors beaucoup de temps à s'informer sur Internet et se rend
+      compte que l'activité devient vite chronophage. Elle rêve alors d'un
+      outil qui puisse faciliter la transition de chacun vers le zéro déchet.
+      Un jour, elle en parle à Glenn...
+    social:
+  - name: Glenn
+    pic: glenn-rolland
+    position: Mr Bin
+    desc: |
+      Glenn, novice en zéro déchet mais expert en production d'outils
+      numériques, lui propose de créer un chatbot : un conseiller virtuel, qui
+      grâce à l'automatisation et à l'intelligence artificielle permettra de
+      répondre aux questions de tous les citoyens désireux de mettre leur
+      poubelle au régime.  L'aventure peut commencer !
+    social:
